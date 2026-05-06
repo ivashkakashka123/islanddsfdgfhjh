@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://ddgheumadieob"]
+
+[ext_resource type="Script" uid="uid://b126b3dbtewek" path="res://scripts/main_menu.gd" id="1_yqorp"]
+
+[node name="MainMenu" type="Control" unique_id=163332419]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yqorp")
+
+[node name="play" type="Button" parent="." unique_id=1419296113]
+layout_mode = 0
+offset_left = 373.0
+offset_top = 137.0
+offset_right = 482.0
+offset_bottom = 214.0
+theme_override_font_sizes/font_size = 50
+text = "play"
+
+[node name="quit" type="Button" parent="." unique_id=1641623886]
+layout_mode = 0
+offset_left = 626.0
+offset_top = 325.0
+offset_right = 731.0
+offset_bottom = 402.0
+theme_override_font_sizes/font_size = 50
+text = "quit"
+
+[node name="creators" type="Button" parent="." unique_id=816868696]
+layout_mode = 0
+offset_left = 228.0
+offset_top = 242.0
+offset_right = 301.0
+offset_bottom = 273.0
+theme_override_font_sizes/font_size = 50
+text = "creators"
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="creators" to="." method="_on_creators_pressed"]
