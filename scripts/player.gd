@@ -24,7 +24,13 @@ var is_paused = false
 
 
 func _ready() -> void:
-	pass
+	if Globalka.pl_hunger >=1:
+		$CanvasLayer/hungrer/Hunger.frame = 1
+	if Globalka.pl_hunger >=2:
+		$CanvasLayer/hungrer/Hunger2.frame = 1
+	if Globalka.pl_hunger >=3:
+		$CanvasLayer/hungrer/Hunger3.frame = 1
+	
 
 func _physics_process(delta: float) -> void:
 	if !can_move:

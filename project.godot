@@ -15,6 +15,10 @@ run/main_scene="uid://ddgheumadieob"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Globalka="*uid://htjtqai2146n"
+
 [display]
 
 window/size/mode=3
