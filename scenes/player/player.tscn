@@ -28,20 +28,20 @@ drag_vertical_enabled = true
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1527071586]
 
 [node name="hungrer" type="Node2D" parent="CanvasLayer" unique_id=996193512]
-position = Vector2(0, -648)
-scale = Vector2(2, 2)
+position = Vector2(-5.9604645e-08, -810)
+scale = Vector2(2.5, 2.5)
 
 [node name="Hunger" type="Sprite2D" parent="CanvasLayer/hungrer" unique_id=116171023]
-position = Vector2(16, 568)
+position = Vector2(16, 340)
 texture = ExtResource("3_gmlin")
 hframes = 2
 
 [node name="Hunger2" type="Sprite2D" parent="CanvasLayer/hungrer" unique_id=989930430]
-position = Vector2(16, 600)
+position = Vector2(48, 340)
 texture = ExtResource("3_gmlin")
 hframes = 2
 
 [node name="Hunger3" type="Sprite2D" parent="CanvasLayer/hungrer" unique_id=1915110557]
-position = Vector2(16, 632)
+position = Vector2(80, 340)
 texture = ExtResource("3_gmlin")
 hframes = 2
